@@ -1,0 +1,19 @@
+{
+  "name": "tdd",
+  "version": "0.0.0",
+  "homepage": "https://github.com/lyubomyr-rudko/backbone-tdd-lesson",
+  "authors": [
+    "Lyubomyr Rudko <rudkolg@gmail.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower-components",
+    "test",
+    "tests"
+  ]
+}
