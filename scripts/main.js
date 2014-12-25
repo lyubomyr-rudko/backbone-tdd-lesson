@@ -9,7 +9,8 @@ require.config({
         bootstrap           : 'bower_components/bootstrap/dist/js/bootstrap.min',
         text                : 'bower_components/requirejs-text/text',
         header_view         : 'views/header_view',
-        header_template     : 'templates/header_template.hb'
+        header_template     : 'templates/header_template.hb',
+        users               : 'collections/users'
     },
 
     shim:   { backbone      : { exports: 'Backbone',   deps: ['underscore', 'jquery'] },
@@ -20,6 +21,6 @@ require.config({
 
 require([
     'app'
-    ], function (App) {
-        App.start();
-    });
+], function (App) {
+    App.start();
+});

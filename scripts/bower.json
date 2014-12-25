@@ -15,5 +15,8 @@
     "bower-components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "sinon": "~1.12.2"
+  }
 }

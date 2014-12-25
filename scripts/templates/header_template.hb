@@ -29,12 +29,12 @@
           </ul>
         </li>
       </ul>
-      <form class="navbar-form navbar-left" role="search">
+      <div class="navbar-form navbar-left" role="search">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+          <input type="text" class="form-control js-search-input" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
+        <button class="btn btn-default js-btn-search">Submit</button>
+      </div>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Link</a></li>
         <li class="dropdown">
